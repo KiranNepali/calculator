@@ -13,7 +13,7 @@ function App() {
       setInput("");
       setOutput("");
     } else if (digit === "=") {
-      setOutput(eval(input).toFixed(5));
+      setOutput(eval(input).toFixed(2));
       setInput(input);
     } else {
       setInput(input + digit);
